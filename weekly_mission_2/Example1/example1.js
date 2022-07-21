@@ -70,3 +70,9 @@ console.log("Ejercicio 2.2");
 explorers.forEach(item=>console.log(item.stack));
 
 console.log("Ejercicio 2.3");
+const explorers_stacks=explorers.map(item=>item.stack);
+console.log(explorers_stacks);
+
+console.log("Ejercicio 2.4");
+const explorer_with_js=explorers.filter(item=>item.stack.includes("js"));
+console.log(explorer_with_js);
