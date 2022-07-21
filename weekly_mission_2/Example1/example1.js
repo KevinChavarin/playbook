@@ -76,3 +76,11 @@ console.log(explorers_stacks);
 console.log("Ejercicio 2.4");
 const explorer_with_js=explorers.filter(item=>item.stack.includes("js"));
 console.log(explorer_with_js);
+
+console.log("Ejercicio 2.5");
+const first_explorer_in_cdmx=explorers.find(item=>item.city==="CDMX");
+console.log(first_explorer_in_cdmx);
+
+console.log("Ejercicio 2.6");
+const all_exercises=explorers.reduce((acc, item)=> acc + item.exercises_completed, 0);
+console.log(all_exercises);
