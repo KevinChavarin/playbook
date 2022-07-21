@@ -84,3 +84,4 @@ console.log(first_explorer_in_cdmx);
 console.log("Ejercicio 2.6");
 const all_exercises=explorers.reduce((acc, item)=> acc + item.exercises_completed, 0);
 console.log(all_exercises);
+
